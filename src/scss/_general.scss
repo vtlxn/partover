@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Times, serif;
+}
+
+.container {
+    width: 1290px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #111111;
+    justify-content: center;
+}

@@ -1,21 +1,92 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <title>PartOver</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.png">          
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="libs/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <h1>Hi</h1>
+    <header class="header">
+        <div class="container">
+            <a class="logo" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <nav class="navbar">
+                <a class="link link-header" href="">Home</a>
+                <a class="link link-header" href="">FAQ</a>
+                <a class="link link-header" href="">Contact</a>
+            </nav>
+            <div class="user-panel">
+                <div class="message">
+                    <button class="btn btn-header">
+                        <img src="img/message.png" alt="">
+                    </button>
+                    <div class="message-new">
+                        <span class="message-count">1</span>
+                    </div>
+                </div>
+                <button class="btn btn-header auth">
+                    <img class="auth-img" src="img/login.png" alt="">
+                    <a class="link link-header" href="">Sign Up / Login</a>
+                </button>
+
+                <button class="btn btn-header language">
+                    <img class="language-img" src="img/flag1.png" alt="">
+                    <span class="language-text">English</span>
+                    <div class="arrow-down arrow-down--lang"></div>
+                </button>
+                <button class="btn btn-header currency">
+                    <span class="currency-sign">$</span>
+                    <div class="arrow-down"></div>
+                </button>
+                <button class="btn btn-header location">
+                    <img src="img/location.png" alt="">
+                    <div class="location-text">
+                        <span class="location-text--title">Your location:</span>
+                        <span class="location-text--place">Birmingham, UK</span>
+                    </div>
+                </button>
+                <div class="cart">
+                    <button class="btn btn-header">
+                        <img src="img/cart.png" alt="">
+                    </button>
+                    <div class="cart-new">
+                        <span class="cart-count">2</span>
+                    </div>
+                </div>
+                <a class="link link-panel" href="">For suppliers</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="spare-parts">
+        <div class="container">
+            <h1 class="title title-spare">Search for the spare parts you need</h1>
+            <div class="facts">
+                <div class="fact fact--first">
+                    <img class="fact-img" src="img/contract-icon.png" alt="">
+                    <span class="fact-desc">Search for the needed parts</span>
+                </div>
+                <div class="fact fact--second">
+                    <img class="fact-img" src="img/discount-icon.png" alt="">
+                    <span class="fact-desc">Find the dealer with the lowest price</span>
+                </div>
+                <div class="fact fact--trird">
+                    <img class="fact-img" src="img/ok-icon.png" alt="">
+                    <span class="fact-desc">Make an order and receive your parts</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-
-
-
-    <!-- Main JS -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
