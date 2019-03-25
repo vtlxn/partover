@@ -36,5 +36,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-version-number": "^0.2.3",
     "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2"
   }
 }
